@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.Form1.resources
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.Properties.Resources.resources
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.GenerateResource.cache
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\b3bsa\b3bsa\bin\Debug\b3bsa.exe.config
+C:\Users\user\source\repos\b3bsa\b3bsa\bin\Debug\b3bsa.exe
+C:\Users\user\source\repos\b3bsa\b3bsa\bin\Debug\b3bsa.pdb
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.exe
+C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.pdb
