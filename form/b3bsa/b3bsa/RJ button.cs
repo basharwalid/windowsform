@@ -17,42 +17,42 @@ namespace b3bsa
         private int borderRadius = 40;
         private Color bordercolor = Color.PaleVioletRed;
 
-        [Category("RJ code advanced")]
-        public int BorderSize
-        {
+        //[Category("RJ code advanced")]
+        //public int BorderSize
+        //{
 
-            get { return bordersize; }
-               set {
-                    bordersize = value;
-                     this.Invalidate(); 
-                   }
-        }
-        [Category("RJ code advanced")]
-        public Color BorderColor
-        {
-            get
-            {
-                return bordercolor;
+        //    get { return bordersize; }
+        //       set {
+        //            bordersize = value;
+        //             this.Invalidate(); 
+        //           }
+        //}
+        //[Category("RJ code advanced")]
+        //public Color BorderColor
+        //{
+        //    get
+        //    {
+        //        return bordercolor;
 
-            }
-            set
-            {
-                bordercolor = value;    
-                this.Invalidate();
-            }
-        }
-        [Category("RJ code advanced")]
-        public Color Backgroungcolor
-        {
-            get { return this.Backgroungcolor; }
-            set { this.BackColor = value; }
-        }
-        [Category("RJ code advanced")]
-        public Color Textcolor
-        {
-            get { return this.ForeColor; }
-            set { this.ForeColor = value; }
-        }
+        //    }
+        //    set
+        //    {
+        //        bordercolor = value;    
+        //        this.Invalidate();
+        //    }
+        //}
+        //[Category("RJ code advanced")]
+        //public Color Backgroungcolor
+        //{
+        //    get { return this.Backgroungcolor; }
+        //    set { this.BackColor = value; }
+        //}
+        //[Category("RJ code advanced")]
+        //public Color Textcolor
+        //{
+        //    get { return this.ForeColor; }
+        //    set { this.ForeColor = value; }
+        //}
 
         public RJ_button()
         {

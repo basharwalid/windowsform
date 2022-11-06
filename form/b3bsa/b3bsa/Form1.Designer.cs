@@ -91,7 +91,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(133, 451);
+            this.textBox4.Location = new System.Drawing.Point(133, 449);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(357, 20);
             this.textBox4.TabIndex = 5;
@@ -137,7 +137,7 @@
             this.save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.ForeColor = System.Drawing.Color.White;
-            this.save.Location = new System.Drawing.Point(227, 518);
+            this.save.Location = new System.Drawing.Point(227, 524);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(150, 40);
             this.save.TabIndex = 10;

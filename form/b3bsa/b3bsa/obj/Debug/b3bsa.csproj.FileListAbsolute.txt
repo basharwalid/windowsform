@@ -9,3 +9,14 @@ C:\Users\user\source\repos\b3bsa\b3bsa\bin\Debug\b3bsa.exe
 C:\Users\user\source\repos\b3bsa\b3bsa\bin\Debug\b3bsa.pdb
 C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.exe
 C:\Users\user\source\repos\b3bsa\b3bsa\obj\Debug\b3bsa.pdb
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\bin\Debug\b3bsa.exe.config
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\bin\Debug\b3bsa.exe
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\bin\Debug\b3bsa.pdb
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.AssemblyReference.cache
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.SuggestedBindingRedirects.cache
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.Form1.resources
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.Properties.Resources.resources
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.GenerateResource.cache
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.csproj.CoreCompileInputs.cache
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.exe
+C:\Users\John Safwat\Desktop\windowsform\form\b3bsa\b3bsa\obj\Debug\b3bsa.pdb
