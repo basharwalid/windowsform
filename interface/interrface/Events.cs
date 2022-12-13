@@ -12,6 +12,7 @@ namespace interrface
 {
     public partial class Events : Form
     {
+
         public Events()
         {
             InitializeComponent();
@@ -19,8 +20,8 @@ namespace interrface
 
         private void button2_Click(object sender, EventArgs e)
         {
-            deleteEmp de = new deleteEmp();
-            de.Show();
+            carview CV = new carview();
+            CV.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,8 +32,14 @@ namespace interrface
 
         private void button3_Click(object sender, EventArgs e)
         {
-            UpdateEmpid uid = new UpdateEmpid();
-            uid.Show();
+            updateEmp ue = new updateEmp();
+            ue.Show();  
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Employeeview ev = new Employeeview();
+            ev.Show();
         }
     }
 }

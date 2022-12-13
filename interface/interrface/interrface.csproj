@@ -52,11 +52,28 @@
     <Compile Include="Car.Designer.cs">
       <DependentUpon>Car.cs</DependentUpon>
     </Compile>
+    <Compile Include="carview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carview.Designer.cs">
+      <DependentUpon>carview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car_Rental_Database_VersionIIIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Car_Rental_Database_VersionIIIDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="deleteEmp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="deleteEmp.Designer.cs">
       <DependentUpon>deleteEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employeeview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employeeview.Designer.cs">
+      <DependentUpon>Employeeview.cs</DependentUpon>
     </Compile>
     <Compile Include="Events.cs">
       <SubType>Form</SubType>
@@ -117,8 +134,14 @@
     <EmbeddedResource Include="Car.resx">
       <DependentUpon>Car.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="carview.resx">
+      <DependentUpon>carview.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="deleteEmp.resx">
       <DependentUpon>deleteEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employeeview.resx">
+      <DependentUpon>Employeeview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
@@ -157,6 +180,17 @@
     <EmbeddedResource Include="Wedding.resx">
       <DependentUpon>Wedding.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Car_Rental_Database_VersionIIIDataSet.xsc">
+      <DependentUpon>Car_Rental_Database_VersionIIIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Car_Rental_Database_VersionIIIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Car_Rental_Database_VersionIIIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Car_Rental_Database_VersionIIIDataSet.xss">
+      <DependentUpon>Car_Rental_Database_VersionIIIDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

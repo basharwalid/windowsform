@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,33 +63,8 @@
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label1.Location = new System.Drawing.Point(12, 83);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CAR ID";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(198, 83);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 40);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -120,16 +93,16 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label3.Location = new System.Drawing.Point(11, 165);
+            this.label3.Location = new System.Drawing.Point(34, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 19);
+            this.label3.Size = new System.Drawing.Size(141, 19);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Manifacture Company";
+            this.label3.Text = "DEPARTMENT ID";
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(198, 167);
+            this.textBox3.Location = new System.Drawing.Point(221, 81);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(181, 40);
@@ -143,9 +116,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
             this.label4.Location = new System.Drawing.Point(594, 163);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 19);
+            this.label4.Size = new System.Drawing.Size(88, 19);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Car Model";
+            this.label4.Text = "MAKER ID";
             // 
             // textBox4
             // 
@@ -158,20 +131,19 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label5.Location = new System.Drawing.Point(12, 247);
+            this.label5.Location = new System.Drawing.Point(34, 161);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 19);
+            this.label5.Size = new System.Drawing.Size(134, 45);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Engine Capacity";
+            this.label5.Text = "MANIFACTURE COMPANY";
             // 
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(198, 247);
+            this.textBox5.Location = new System.Drawing.Point(221, 161);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(181, 40);
@@ -183,11 +155,11 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label6.Location = new System.Drawing.Point(594, 245);
+            this.label6.Location = new System.Drawing.Point(593, 258);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 19);
+            this.label6.Size = new System.Drawing.Size(106, 19);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Engine Capacity";
+            this.label6.Text = "CAR MODEL";
             // 
             // textBox6
             // 
@@ -204,16 +176,16 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label7.Location = new System.Drawing.Point(11, 341);
+            this.label7.Location = new System.Drawing.Point(34, 255);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 19);
+            this.label7.Size = new System.Drawing.Size(155, 19);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Horse Power";
+            this.label7.Text = "ENGINE CAPACITY";
             // 
             // textBox7
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Location = new System.Drawing.Point(198, 341);
+            this.textBox7.Location = new System.Drawing.Point(221, 255);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(181, 40);
@@ -227,9 +199,9 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
             this.label8.Location = new System.Drawing.Point(593, 343);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(135, 19);
+            this.label8.Size = new System.Drawing.Size(132, 19);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Maximum Speed";
+            this.label8.Text = "HORSE POWER";
             // 
             // textBox8
             // 
@@ -246,7 +218,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label9.Location = new System.Drawing.Point(12, 434);
+            this.label9.Location = new System.Drawing.Point(35, 348);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(135, 19);
             this.label9.TabIndex = 16;
@@ -255,7 +227,7 @@
             // textBox9
             // 
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Location = new System.Drawing.Point(198, 434);
+            this.textBox9.Location = new System.Drawing.Point(221, 348);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(181, 40);
@@ -288,7 +260,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label11.Location = new System.Drawing.Point(169, 610);
+            this.label11.Location = new System.Drawing.Point(192, 524);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(0, 19);
             this.label11.TabIndex = 20;
@@ -299,7 +271,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label12.Location = new System.Drawing.Point(11, 520);
+            this.label12.Location = new System.Drawing.Point(35, 432);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(42, 19);
             this.label12.TabIndex = 21;
@@ -308,7 +280,7 @@
             // textBox11
             // 
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Location = new System.Drawing.Point(198, 520);
+            this.textBox11.Location = new System.Drawing.Point(221, 434);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(181, 40);
@@ -341,7 +313,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label14.Location = new System.Drawing.Point(12, 610);
+            this.label14.Location = new System.Drawing.Point(35, 524);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(88, 19);
             this.label14.TabIndex = 25;
@@ -350,7 +322,7 @@
             // textBox13
             // 
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Location = new System.Drawing.Point(198, 610);
+            this.textBox13.Location = new System.Drawing.Point(221, 524);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(181, 40);
@@ -383,7 +355,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label16.Location = new System.Drawing.Point(12, 695);
+            this.label16.Location = new System.Drawing.Point(35, 609);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(112, 19);
             this.label16.TabIndex = 29;
@@ -392,7 +364,7 @@
             // textBox15
             // 
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox15.Location = new System.Drawing.Point(198, 695);
+            this.textBox15.Location = new System.Drawing.Point(221, 609);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(181, 40);
@@ -425,7 +397,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label18.Location = new System.Drawing.Point(12, 796);
+            this.label18.Location = new System.Drawing.Point(35, 710);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(157, 19);
             this.label18.TabIndex = 33;
@@ -434,7 +406,7 @@
             // textBox17
             // 
             this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox17.Location = new System.Drawing.Point(198, 784);
+            this.textBox17.Location = new System.Drawing.Point(221, 698);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(181, 40);
@@ -461,38 +433,18 @@
             this.textBox18.Size = new System.Drawing.Size(181, 40);
             this.textBox18.TabIndex = 36;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label20.Location = new System.Drawing.Point(12, 883);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(111, 19);
-            this.label20.TabIndex = 37;
-            this.label20.Text = "Rental Points";
-            // 
-            // textBox19
-            // 
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox19.Location = new System.Drawing.Point(198, 874);
-            this.textBox19.Multiline = true;
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(181, 40);
-            this.textBox19.TabIndex = 38;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(335, 954);
+            this.button1.Location = new System.Drawing.Point(384, 829);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(301, 78);
             this.button1.TabIndex = 39;
             this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Long_term
             // 
@@ -501,8 +453,6 @@
             this.BackgroundImage = global::interrface.Properties.Resources.white;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(970, 1044);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.label20);
             this.Controls.Add(this.textBox18);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox17);
@@ -538,8 +488,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -552,9 +500,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
@@ -590,8 +535,6 @@
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.Button button1;
     }
 }

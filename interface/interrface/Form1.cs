@@ -33,5 +33,11 @@ namespace interrface
             Car c = new Car();
             c.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            carview cv = new carview();
+            cv.Show();
+        }
     }
 }

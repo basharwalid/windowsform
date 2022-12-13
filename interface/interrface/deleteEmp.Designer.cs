@@ -63,6 +63,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "DELETE Employee";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // deleteEmp
             // 
@@ -77,6 +78,7 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
             this.Name = "deleteEmp";
             this.Text = "deleteEmp";
+            this.Load += new System.EventHandler(this.deleteEmp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

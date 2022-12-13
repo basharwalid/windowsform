@@ -20,15 +20,7 @@ namespace interrface
         private void button1_Click(object sender, EventArgs e)
         {
             
-            if (textBox1.Text!="")
-            {
-                updateEmp ue = new updateEmp();
-                ue.Show();
-            }
-            else
-            {
-                MessageBox.Show("Please enter Employee ID" , "ERROR" , MessageBoxButtons.OK , MessageBoxIcon.Error);
-            }
+           
         }
     }
 }

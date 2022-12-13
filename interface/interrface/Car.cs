@@ -35,14 +35,14 @@ namespace interrface
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Short_term d1 = new Short_term();
-            d1.Show();
+            carview cv = new carview();
+            cv.Show();  
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Updatecarid uid = new Updatecarid();  
-            uid.Show(); 
+             Motorcycles m1 = new Motorcycles();
+             m1.Show();  
         }
     }
 }
