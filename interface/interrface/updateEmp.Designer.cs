@@ -85,7 +85,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(724, 580);
+            this.textBox15.Location = new System.Drawing.Point(724, 504);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(164, 27);
@@ -97,7 +97,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label15.Location = new System.Drawing.Point(546, 588);
+            this.label15.Location = new System.Drawing.Point(519, 504);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(164, 19);
             this.label15.TabIndex = 45;
@@ -105,7 +105,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(724, 521);
+            this.textBox14.Location = new System.Drawing.Point(724, 445);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(164, 27);
@@ -117,7 +117,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label14.Location = new System.Drawing.Point(591, 521);
+            this.label14.Location = new System.Drawing.Point(574, 453);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(57, 19);
             this.label14.TabIndex = 43;
@@ -125,7 +125,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(724, 457);
+            this.textBox13.Location = new System.Drawing.Point(724, 381);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(164, 27);
@@ -137,7 +137,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label13.Location = new System.Drawing.Point(591, 458);
+            this.label13.Location = new System.Drawing.Point(574, 381);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 19);
             this.label13.TabIndex = 41;
@@ -145,7 +145,7 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(724, 381);
+            this.textBox12.Location = new System.Drawing.Point(724, 305);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(164, 27);
@@ -157,7 +157,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label12.Location = new System.Drawing.Point(591, 390);
+            this.label12.Location = new System.Drawing.Point(591, 304);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(73, 19);
             this.label12.TabIndex = 39;
@@ -165,7 +165,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(724, 313);
+            this.textBox11.Location = new System.Drawing.Point(724, 227);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(164, 27);
@@ -173,7 +173,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(724, 235);
+            this.textBox10.Location = new System.Drawing.Point(724, 159);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(164, 27);
@@ -185,7 +185,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label11.Location = new System.Drawing.Point(591, 235);
+            this.label11.Location = new System.Drawing.Point(570, 158);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 19);
             this.label11.TabIndex = 36;
@@ -197,7 +197,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label10.Location = new System.Drawing.Point(591, 311);
+            this.label10.Location = new System.Drawing.Point(593, 226);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(71, 19);
             this.label10.TabIndex = 35;
@@ -205,7 +205,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(724, 155);
+            this.textBox9.Location = new System.Drawing.Point(724, 96);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(164, 27);
@@ -217,7 +217,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label9.Location = new System.Drawing.Point(591, 155);
+            this.label9.Location = new System.Drawing.Point(591, 96);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(92, 19);
             this.label9.TabIndex = 33;
@@ -237,7 +237,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label8.Location = new System.Drawing.Point(69, 493);
+            this.label8.Location = new System.Drawing.Point(62, 503);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 19);
             this.label8.TabIndex = 61;
@@ -382,7 +382,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(51)))), ((int)(((byte)(83)))));
-            this.label1.Location = new System.Drawing.Point(311, 34);
+            this.label1.Location = new System.Drawing.Point(266, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 19);
             this.label1.TabIndex = 83;
@@ -390,7 +390,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(464, 34);
+            this.textBox1.Location = new System.Drawing.Point(422, 26);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(164, 27);
@@ -400,6 +400,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::interrface.Properties.Resources.white;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1019, 800);
             this.Controls.Add(this.textBox1);

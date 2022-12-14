@@ -25,13 +25,11 @@ C:\Users\user\Desktop\windowsform\interface\interrface\bin\Debug\interrface.pdb
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.csproj.SuggestedBindingRedirects.cache
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Car.resources
-C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.deleteEmp.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Events.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Form1.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Long_term.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Motorcycles.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Properties.Resources.resources
-C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Short_term.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.Updatecarid.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.updateEmp.resources
 C:\Users\user\Desktop\windowsform\interface\interrface\obj\Debug\interrface.UpdateEmpid.resources

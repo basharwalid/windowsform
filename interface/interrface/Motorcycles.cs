@@ -47,7 +47,7 @@ namespace interrface
                 textBox6.Text = reader1["EngineCapacity"].ToString();
                 textBox7.Text = reader1["HorsePower"].ToString();
                 textBox9.Text = reader1["MaximumSpeed"].ToString();
-                textBox9.Text = reader1["TransmissionType"].ToString();
+                textBox10.Text = reader1["TransmissionType"].ToString();
                 textBox11.Text = reader1["YearModel"].ToString();
                 textBox12.Text = reader1["Fuel"].ToString();
                 textBox13.Text = reader1["TankSize"].ToString();
